@@ -73,3 +73,7 @@ elif conversion_choice == "Temperature":
     if st.button("Convert", key="temp_convert"):
         result = converter_temperature(input_value, from_unit, to_unit)
         st.success(f"{input_value} {from_unit} is equal to {result:.2f} {to_unit}")
+
+# Footer
+st.markdown("---")
+st.write("Created with 💖 by [Danish Noor]")
